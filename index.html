@@ -1,75 +1,61 @@
- <!DOCTYPE html>
- <html lang="en" dir="ltr">
-   <head>
-     <meta charset="utf-8">
-     <link rel="stylesheet" href="estilos.css">
-     <title>Prueba</title>
-   </head>
-   <body>
-     <div class="container">
-       <header>
-         <img src="imagen/banco.jpg" height="100px" width="650px">
-       </header>
-       <nav>
-         <ul id="boton">
-           <li><a href="#">.Créditos.</a></li>
-           <li><a href="#">|</a></li>
-           <li><a href="#">.Leasing.</a></li>
-           <li><a href="#">|</a></li>
-           <li><a href="#">.Ahorros.</a></li>
-           <li><a href="#">|</a></li>
-           <li><a href="#">.Servicios al cliente.</a></li>
-         </ul>
-       </nav>
-       <article>
-       <section id="cero">
-         <div class="login-box">
-           <h1>login here</h1>
-           <form>
-             <label for="cuenta">Cuenta</label>
-             <input type="text" placeholder="Enter Username">
-             <label for="Tipo">Tipo</label>
-             <input type="text" placeholder="">
-             <label for="Password">Clave</label>
-             <input type="password" placeholder="Enter Password">
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Lista de chequeo</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav>
+          <ul id="boton">
+          <li><a href="#">.Servicios.</a></li>
+          <li><a href="#">|</a></li>
+          <li><a href="#">.Productos.</a></li>
+          <li><a href="#">|</a></li>
+          <li><a href="#">.Guarderia.</a></li>
+          <li><a href="#">|</a></li>
+          <li><a href="#">.Promociones.</a></li>
+          </ul>
+        </nav>
+      </header>
+      <article>
+        <aside class="uno">
+          <h3 id="uno">Cuidamos y educamos a tu canino</h3>
+          <p><img class="img" src="imagen/cuidar.png" height="100px" width="100px">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-             <input type="submit" value="Ingresar">
-           </form>
-         </div>
-       </section>
-       <section id="tres">
-         <div class="Text">
-           <a href="#">TRANSACCIONES</a>
-           <a href="#">Banca personal</a>
-           <a href="#">Banca empresrial</a>
-           <a href="#">Banca seguro</a>
-           <a href="#">pago de facturas</a>
-           <a href="#">TARJETAS DE CRÉDITO<br></a>
-           <a href="#">Credi Visa<br></a>
-           <a href="#">Credi Mastercard</a>
-         </div>
-       </section>
-     </article>
-       <aside id="uno"><h3 id="titu1">Solicita nuestro producto</h3>
-         <img id="img1" src="imagen/banco3.jpg" height="90px" width="90px">
-         <p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-       </aside>
-       <aside id="dos"><h2 id="titu2">Ahorro estudiante</h2>
-         <img id="img1" src="imagen/libro.jpg" height="90px" width="90px">
-         <p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-       </aside>
-       <aside id="cuatro"><h2 id="titu3">Credito vehiculo</h2>
-         <img id="img1" src="imagen/llave.jpg" height="90px" width="90px">
-         <p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-       </aside>
-       <aside id="cinco"><h2 id="titu4">Credito hipotecario</h2>
-         <img id="img1" src="imagen/casa.png" height="90px" width="90px">
-         <p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-       </aside>
-       <footer>
-        <font color="white" id="bajo">Contactenos.<br>linea gratuita 018000-00001</font> <br>
-        <a href="#" id="autor">locheMC</a>
-      </footer>
-     </div>
-   </body>
- </html>
+        </aside>
+        <aside class="dos">
+          <div class="contenido">
+          <h3 id="dos">Salir de viaje con su mascota</h3>
+          <p><img class="img" src="imagen/viaje.jpg" height="100px" width="100px">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        </aside>
+      </article>
+      <section>
+        <div class="login-box">
+        <h2 id="titu">Solicitar cita médica</h2>
+        <form>
+
+          <label for="Mascota">Mascota: </label>
+          <input type="text" placeholder="Ingre Nombre">
+            <label for="Edad">Edad: </label>
+            <input type="number" placeholder="">
+            <label for="Raza">Raza: </label>
+            <input type="text" placeholder="Ingre Raza">
+            <label for="Fecha">Fecha: </label>
+            <input type="date" placeholder="dd/mm/aaaa">
+            <label for="Hora">Hora: </label>
+            <input type="time" placeholder="--:--:----">
+            <label for="Amo">Amo: </label>
+            <input type="text" placeholder="Ingre Nombre">
+
+            <input type="submit" value="VALIDAR CITA">
+        </form>
+        </div>
+      </section>
+      <footer><p id="bajo">Contactanos <br>Linea gratuita 1088800000</p></footer>
+    </div>
+  </body>
+</html>
