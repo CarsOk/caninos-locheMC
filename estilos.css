@@ -1,0 +1,290 @@
+.container{
+  border: 0px solid black;
+  display: block;
+  background-size: cover;
+  height: 820px;
+  width: 800px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+header{
+  border: 1px solid black;
+  height: 150px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+img{
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+nav{
+  border: 1px solid black;
+  height: 45px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 0px 0px 10px 10px;
+  background-color: orange;
+}
+
+#boton{
+  padding: 0;
+}
+
+#boton li{
+  display: inline;
+}
+
+#boton a{
+  font-family: Arial;
+  font-size: 20px;
+  text-decoration: none;
+  float: left;
+  padding: 0px 24px;
+  color: Black;
+}
+
+article{
+border: 0px solid white;
+width: 260px;
+height: 540px;
+float: left;
+}
+
+#cero{
+  border: 0px solid black;
+  color: #0059FF;
+  font-family: sans-serif;
+  border-radius: 10px 10px 0px 0px;
+  height: 260px;
+  width: 250px;
+  margin-left: 4px;
+  margin-right: 8px;
+  margin-top: 3px;
+
+}
+
+.login-box {
+  background: grey;
+  border-radius: 10px 10px 0px 0px;
+  width: 250px;
+  height: 260px;
+  top: 80%;
+  left: 50%;
+  box-sizing: border-box;
+  padding: 10px 30px;
+}
+
+.login-box h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+    color: black;
+}
+
+.login-box label{
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+
+.login-box input{
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.login-box input[type="text"],
+.login-box input[type="Password"]{
+  border: none;
+  border: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 20px;
+  color: #fff;
+  font-size: 12px;
+}
+
+.login-box input[type="submit"]{
+    border-color: black;
+    outline: none;
+    height: 30px;
+    background: orange;
+    color: black;;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+#tres{
+  background: black;
+  border: 0px solid black;
+  color: gray;
+  border-radius: 0px 0px 10px 10px;
+  height: 260px;
+  width: 250px;
+  margin-left: 4px;
+  margin-right: 8px;
+  margin-top: 3px;
+}
+
+.Text a{
+  color: grey;
+  margin: 0;
+  padding: 0 0 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+}
+.Text a:hover{
+    color: orange;
+}
+
+.Text{
+  border: 0px solid white;
+  width: 250px;
+  height: 260px;
+  top: 70%;
+  left: 50%;
+  box-sizing: border-box;
+  padding: 0px 45px;
+}
+
+#uno{
+  border: 0px solid black;
+  background-color: grey;
+  background-size: cover;
+  border-radius: 10px 0px 0px 0px;
+  float: left;
+  height: 250px;
+  width: 260px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-top: 20px;
+
+}
+
+#dos{
+    border: 0 px solid black;
+    background-color: grey;
+    background-size: cover;
+    border-radius: 0px 10px 0px 0px;
+    height: 250px;
+    width: 260px;
+    float: right;
+    margin-left: 1px;
+    margin-right: 2px;
+    margin-top: 20px;
+
+}
+
+#cuatro{
+  border: 0px solid black;
+  background-color: grey;
+  background-size: cover;
+  border-radius: 0px 0px 0px 10px;
+  height: 250px;
+  width: 260px;
+  float: left;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-top: 10px;
+}
+
+#cinco{
+  border: 0px solid black;
+  background-color: grey;
+  background-size: cover;
+  border-radius: 0px 0px 10px 0px;
+  height: 250px;
+  width: 260px;
+  float: left;
+  margin-left: 14px;
+  margin-right: 2px;
+  margin-top: 10px;
+}
+
+footer{
+  background-color: black;
+  border: 0px solid black;
+  border-radius: 0px 0px 10px 10px;
+  height: 68px;
+  clear: both;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 480px;
+
+}
+
+#autor{
+  border: 0px solid black;
+  float: left;
+  color: white;
+  text-decoration: none;
+  width: 160px;
+  height: 14px;
+  text-align: center;
+  margin-top: 15px;
+  margin-left: 320px;
+}
+
+#bajo{
+  border: 0px solid black;
+  float: right;
+  margin-right: 65px;
+  margin-top: 2px;
+  width: 650px;
+  height: 25px;
+  font-size: 15px;
+  text-align: center;
+}
+
+#titu1{
+  background-color: black;
+  text-align: center;
+  color: white;
+  width: 100%;
+  margin-top: 0px;
+  border-radius: 7px 0px 0px 0px;
+}
+
+#titu2{
+  background-color: black;
+  text-align: center;
+  color: white;
+  width: 100%;
+  margin-top: 0px;
+  border-radius: 0px 6px 0px 0px;
+}
+
+#titu3{
+  background-color: black;
+  text-align: center;
+  color: white;
+  width: 100%;
+  margin-top: 0px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+#titu4{
+  background-color: black;
+  text-align: center;
+  color: white;
+  width: 100%;
+  margin-top: 0px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+#img1{
+  display: block;
+  margin: auto;
+}
+
+.texto{
+  margin-left: 5px;
+}
